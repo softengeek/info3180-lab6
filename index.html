@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Shopping List</title>
+        <script src="angular.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div ng-app="myShoppingList" ng-controller="myCtrl">
+            <ul>
+                <li ng-repeat="product in products">
+                    {{ product }}
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
