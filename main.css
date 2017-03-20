@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: dodgerblue;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+ul {
+    background: black;
+    color: white;
+}
+
+li {
+    border: 2px solid white;
+    list-style-type: none;
+    padding: 2%;
+}
+
+span {
+    float: right;
+    cursor: pointer;
+}
+
+button {
+    height: 32px;
+    width: 70px;
+    margin-top: 3%;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+button:hover {
+    background: dodgerblue;
+    color: black;
+    
+}
+
+input {
+    height: 30px;
+    width: 80%;
+    margin-left: 4%;
+}
+
+p {
+    padding-top: 5%;
+    text-align: center;
+}
